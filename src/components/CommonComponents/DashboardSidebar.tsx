@@ -186,7 +186,7 @@ export default function DashboardSidebar() {
                   <p className="text-primary text-sm font-semibold leading-snug mb-0.5">
                     Upgrade to Premium for more Features
                   </p>
-                  <Button className="w-full flex items-center justify-center gap-2 bg-linear-to-r from-[#980009] via-[#C00069] to-[#980009] text-white font-bold py-2.5 rounded-xl text-sm hover:opacity-90 transition-opacity shadow-[0_0_10px_rgba(192,0,105,0.4)]">
+                  <Button className="w-full flex items-center justify-center gap-2 bg-button text-white font-bold py-2.5 rounded-xl text-sm hover:opacity-90 transition-opacity shadow-[0_0_10px_rgba(192,0,105,0.4)]">
                     <Crown size={15} className="text-[#cdba20]" />
                     Upgrade
                   </Button>
@@ -255,7 +255,7 @@ function NavItem({
               ? "flex items-center justify-center px-2 py-3 transition-colors rounded-full w-12 h-10 mx-auto"
               : "flex items-center gap-3 h-10 md:h-10 rounded-md p-3 transition-colors text-sm",
             active
-              ? "bg-custom-red  text-primary hover:bg-custom-red! hover:text-white! font-medium border-4 border-border shadow-md"
+              ? "bg-button  text-primary hover:bg-button/90! hover:text-white! font-medium border-4 border-border shadow-md"
               : "text-secondary  hover:bg-transparent! hover:text-primary!  font-medium",
           )}
         >
