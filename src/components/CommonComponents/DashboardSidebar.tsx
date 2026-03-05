@@ -111,11 +111,16 @@ export default function DashboardSidebar() {
           >
             <Link href="/" className="flex gap-2 ">
               {isCollapsed ? (
-                <Image src="/logo.png" alt="Logo" width={40} height={40} />
+                <Image
+                  src="/foodiebot-icon.png"
+                  alt="Logo"
+                  width={40}
+                  height={40}
+                />
               ) : (
                 <div className="mt-2 flex items-center gap-2">
                   <Image
-                    src="/Tacplay-logo-2.png"
+                    src="/foodiebot-logo.png"
                     alt="Logo"
                     width={150}
                     height={150}
@@ -161,7 +166,7 @@ export default function DashboardSidebar() {
           {isCollapsed ? (
             <div className="flex justify-center mb-2">
               <Button
-                className="w-10 h-10 rounded-full flex items-center justify-center bg-linear-to-br from-[#980009] to-[#C00069] border-2 border-[#cdba20] shadow-lg"
+                className="w-10 h-10 rounded-full flex items-center justify-center "
                 title="Upgrade to Premium"
               >
                 <Crown size={18} className="text-[#cdba20]" />
@@ -173,13 +178,13 @@ export default function DashboardSidebar() {
                 {/* Seal badge */}
                 <div className="relative shrink-0">
                   <div
-                    className="w-12 h-12 bg-[#980009] flex items-center justify-center"
+                    className="w-12 h-12 bg-button flex items-center justify-center"
                     style={{
                       clipPath:
                         "polygon(50% 0%,61% 15%,79% 9%,75% 28%,93% 35%,82% 50%,93% 65%,75% 72%,79% 91%,61% 85%,50% 100%,39% 85%,21% 91%,25% 72%,7% 65%,18% 50%,7% 35%,25% 28%,21% 9%,39% 15%)",
                     }}
                   >
-                    <Crown size={20} className="text-[#cdba20]" />
+                    <Crown size={20} className="text-white" />
                   </div>
                 </div>
                 <div>
