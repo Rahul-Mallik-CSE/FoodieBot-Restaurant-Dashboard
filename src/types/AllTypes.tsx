@@ -102,3 +102,74 @@ export interface OrderDetail {
   restaurantName: string;
   address: string;
 }
+
+// ─── Customer Review Types ───
+export interface ReviewItem {
+  id: string;
+  name: string;
+  avatar: string;
+  date: string;
+  service: string;
+  rating: number;
+  review: string;
+}
+
+export interface RatingDistributionItem {
+  stars: number;
+  count: string;
+  percentage: number;
+  color: string;
+}
+
+export interface ReviewStats {
+  totalReviews: string;
+  totalGrowth: string;
+  averageRating: number;
+  ratingGrowth: string;
+  ratingDistribution: RatingDistributionItem[];
+}
+
+// ─── Settings Types ───
+export interface PersonalInfo {
+  ownerName: string;
+  email: string;
+  password: string;
+  contactNumber: string;
+}
+
+export interface RestaurantDetails {
+  restaurantName: string;
+  description: string;
+  address: string;
+}
+
+export interface BillingHistoryItem {
+  invoiceId: string;
+  date: string;
+  plan: string;
+  price: string;
+}
+
+// ─── Profile Setup Types ───
+export type ProfileSetupStep = 1 | 2 | 3;
+
+export interface BasicInfoFormData {
+  restaurantName: string;
+  description: string;
+  contactNumber: string;
+  restaurantAddress: string;
+  images: File[];
+}
+
+export interface TypeOperationsFormData {
+  restaurantType: string;
+  serviceType: string;
+  primaryCustomerType: string;
+  averagePriceRange: string;
+}
+
+export interface BillingCurrencyFormData {
+  currency: string;
+  preferredLanguage: string;
+  acknowledged: boolean;
+}

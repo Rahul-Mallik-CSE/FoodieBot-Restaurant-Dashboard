@@ -2,16 +2,11 @@
 
 "use client";
 
-import React, { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { Eye, EyeOff } from "lucide-react";
+import React from "react";
+import ResetPasswordForm from "@/components/AuthComponents/ResetPasswordForm";
 
 const ResetPasswordPage = () => {
-  const [showPassword, setShowPassword] = useState(false);
-  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-
-  return <div></div>;
+  return <ResetPasswordForm />;
 };
 
 export default ResetPasswordPage;
