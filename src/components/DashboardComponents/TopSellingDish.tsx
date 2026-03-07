@@ -6,16 +6,16 @@ import Image from "next/image";
 import type { TopSellingDishItem } from "@/types/AllTypes";
 
 const dishes: TopSellingDishItem[] = [
-  { id: "1", name: "Chicken Burger", image: "/dishes/dish1.png", count: 21 },
+  { id: "1", name: "Chicken Burger", image: "/food.png", count: 21 },
   {
     id: "2",
     name: "Grilled Vegetable Plate",
-    image: "/dishes/dish2.png",
+    image: "/food.png",
     count: 18,
   },
-  { id: "3", name: "Margherita Pizza", image: "/dishes/dish3.png", count: 14 },
-  { id: "4", name: "French Fries", image: "/dishes/dish4.png", count: 240 },
-  { id: "5", name: "Chicken Wings", image: "/dishes/dish5.png", count: 8 },
+  { id: "3", name: "Margherita Pizza", image: "/food.png", count: 14 },
+  { id: "4", name: "French Fries", image: "/food.png", count: 240 },
+  { id: "5", name: "Chicken Wings", image: "/food.png", count: 8 },
 ];
 
 const rankColors = [

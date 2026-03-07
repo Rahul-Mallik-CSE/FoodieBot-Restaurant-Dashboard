@@ -88,18 +88,20 @@ const TableAndQRCodePage = () => {
       </div>
 
       {/* Legend */}
-      <div className="flex items-center justify-center gap-6 mt-8">
-        <div className="flex items-center gap-2">
-          <span className="w-3 h-3 rounded-full bg-button" />
-          <span className="text-muted-foreground text-sm">Active</span>
-        </div>
-        <div className="flex items-center gap-2">
-          <span className="w-3 h-3 rounded-full bg-custom-pink" />
-          <span className="text-muted-foreground text-sm">Booked</span>
-        </div>
-        <div className="flex items-center gap-2">
-          <span className="w-3 h-3 rounded-full bg-[#3a3750]" />
-          <span className="text-muted-foreground text-sm">Inactive</span>
+      <div className="flex items-center justify-center gap-6 mt-8 ">
+        <div className="border border-gray-600 bg-black flex items-center justify-center px-6 py-2 gap-6">
+          <div className="flex items-center gap-2">
+            <span className="w-3 h-3 rounded-full bg-button" />
+            <span className="text-muted-foreground text-sm">Active</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-3 h-3 rounded-full bg-custom-pink" />
+            <span className="text-muted-foreground text-sm">Booked</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="w-3 h-3 rounded-full bg-[#3a3750]" />
+            <span className="text-muted-foreground text-sm">Inactive</span>
+          </div>
         </div>
       </div>
 

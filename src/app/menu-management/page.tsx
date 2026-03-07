@@ -32,7 +32,7 @@ const initialDishes: DishItem[] = [
     ingredients: "Lettuce, tomato, cucumber, olive oil",
     calories: "150cal",
     allergenInfo: "None",
-    image: "/dishes/dish1.png",
+    image: "/food.png",
   },
   {
     id: "2",
@@ -44,7 +44,7 @@ const initialDishes: DishItem[] = [
     ingredients: "Strawberry, blueberry, banana, honey",
     calories: "120cal",
     allergenInfo: "None",
-    image: "/dishes/dish2.png",
+    image: "/food.png",
   },
   {
     id: "3",
@@ -56,7 +56,7 @@ const initialDishes: DishItem[] = [
     ingredients: "Lettuce, avocado, nuts, dressing",
     calories: "220cal",
     allergenInfo: "Contains nuts",
-    image: "/dishes/dish3.png",
+    image: "/food.png",
   },
   {
     id: "4",
@@ -68,7 +68,7 @@ const initialDishes: DishItem[] = [
     ingredients: "Lettuce, chicken, parmesan, croutons",
     calories: "350cal",
     allergenInfo: "Contains gluten, dairy",
-    image: "/dishes/dish4.png",
+    image: "/food.png",
   },
   {
     id: "5",
@@ -80,7 +80,7 @@ const initialDishes: DishItem[] = [
     ingredients: "Mango, pineapple, strawberry",
     calories: "130cal",
     allergenInfo: "None",
-    image: "/dishes/dish5.png",
+    image: "/food.png",
   },
   {
     id: "6",
@@ -92,7 +92,7 @@ const initialDishes: DishItem[] = [
     ingredients: "Lettuce, feta, olives, cucumber",
     calories: "280cal",
     allergenInfo: "Contains dairy",
-    image: "/dishes/dish1.png",
+    image: "/food.png",
   },
   {
     id: "7",
@@ -104,7 +104,7 @@ const initialDishes: DishItem[] = [
     ingredients: "Strawberry, raspberry, blueberry",
     calories: "110cal",
     allergenInfo: "None",
-    image: "/dishes/dish2.png",
+    image: "/food.png",
   },
 ];
 
@@ -191,7 +191,7 @@ const MenuManagementPage = () => {
             <TabsTrigger
               key={cat.id}
               value={cat.name}
-              className="text-muted-foreground data-[state=active]:text-custom-pink data-[state=active]:border-b-2 data-[state=active]:border-custom-pink rounded-none px-4 py-2 text-sm"
+              className="text-muted-foreground data-[state=active]:text-custom-pink  rounded-none px-4 py-2 text-sm"
             >
               {cat.name}
             </TabsTrigger>
