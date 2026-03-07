@@ -27,6 +27,12 @@ import {
 import { Button } from "../ui/button";
 import LogoutModal from "./LogOutModal";
 import UpgradeModal from "./UpgradeModal";
+import { BsQrCodeScan } from "react-icons/bs";
+import {
+  TbClipboardText,
+  TbMessageCircleStar,
+  TbReceiptDollar,
+} from "react-icons/tb";
 
 export default function DashboardSidebar() {
   const { state } = useSidebar();
@@ -44,24 +50,24 @@ export default function DashboardSidebar() {
       label: "Dashboard",
     },
     {
-      href: "/sessions",
-      icon: Calendar,
-      label: "Sessions",
+      href: "/table-qr-code",
+      icon: BsQrCodeScan,
+      label: "Table & QR Code",
     },
     {
-      href: "/booking-list",
-      icon: Briefcase,
-      label: "Booking List",
+      href: "/menu-management",
+      icon: TbClipboardText,
+      label: "Menu Management",
     },
     {
-      href: "/earnings",
-      icon: Bell,
-      label: "Earnings",
+      href: "/orders-billings",
+      icon: TbReceiptDollar,
+      label: "Orders & Billings",
     },
     {
-      href: "/arena-management",
-      icon: Settings,
-      label: "Arena Management",
+      href: "/customer-review",
+      icon: TbMessageCircleStar,
+      label: "Customer Review ",
     },
     {
       href: "/settings",
