@@ -126,12 +126,13 @@ export default function DashboardSidebar() {
                   height={40}
                 />
               ) : (
-                <div className="mt-2 flex items-center gap-2">
+                <div className="mt-2 flex items-center gap-2 h-10">
                   <Image
                     src="/foodiebot-logo.png"
                     alt="Logo"
                     width={150}
                     height={150}
+                    className="h-10 w-40"
                   />
                 </div>
               )}
