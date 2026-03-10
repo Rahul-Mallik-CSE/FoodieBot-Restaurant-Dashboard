@@ -133,6 +133,7 @@ export default function DashboardSidebar() {
                     width={150}
                     height={150}
                     className="h-10 w-40"
+                    priority
                   />
                 </div>
               )}
